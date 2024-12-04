@@ -38,13 +38,6 @@ The Golf App is an innovative tool designed for golfers to analyze their shots i
 - **SharedPreferences**: Offline storage for user data.
 - **Custom Charts**: Dynamic visualizations for speed and deflection trends.
 
-## Setup & Compilation Instructions
-
-### Prerequisites:
-- Dart version: 3.5.4
-- DevTools version: 2.37.3
-- Flutter version: 3.24.5 (Stable)
-
 
 ## Design Decisions
 
