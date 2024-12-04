@@ -1,46 +1,16 @@
-![App icon](android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
+# golf
 
-# Golf 
+A new Flutter project.
 
-The Golf App is an innovative tool designed for golfers to analyze their shots in real-time. By integrating IoT devices, the app measures the speed and deflection of golf balls, providing actionable insights to improve your game.
+## Getting Started
 
-## App Screenshots
+This project is a starting point for a Flutter application.
 
-<p align="center">
-  <img src="App_ss/1.png" width="30%" />
-</p>
+A few resources to get you started if this is your first Flutter project:
 
-## Features
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-- **Real-Time Data Analysis**:
-  - Measure **Speed** and **Deflection** of the golf ball using IoT sensors.
-- **Data Persistence**:
-  - **Online**: Sync data to **AWS DynamoDB** for cloud storage and analysis.
-  - **Offline**: Use **SharedPreferences** to save data locally.
-- **MQTT Protocol**:
-  - Communicate with IoT devices for seamless data transfer.
-- **Progress Tracking**:
-  - View historical data and performance trends.
-- **Customizable Alerts**:
-  - Set thresholds for speed and deflection to receive instant feedback.
-- **User-Friendly Interface**:
-  - Clean design with Light and Dark themes.
-
-## Technology Stack
-
-- **Flutter**: Cross-platform UI framework.
-- **MVVM Architecture**: Ensures a clean separation of concerns and testability.
-- **MQTT Protocol**: Facilitates communication between the app and IoT devices.
-- **AWS DynamoDB**: Cloud database for storing golf data.
-- **SharedPreferences**: Offline storage for user data.
-- **Custom Charts**: Dynamic visualizations for speed and deflection trends.
-
-
-## Design Decisions
-
-- **Real-Time Processing**: Data from IoT devices is processed and displayed instantly using MQTT.
-- **Custom Charts**: Engaging visualizations enhance user experience and provide clear insights.
-- **Error Handling**: Robust mechanisms for connectivity issues and data inconsistencies.
-
----
-Developed by Shubham choudhary
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
