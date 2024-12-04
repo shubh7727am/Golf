@@ -1,4 +1,4 @@
-![App icon](images/autobot.png)
+![App icon](android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
 
 # Golf 
 
